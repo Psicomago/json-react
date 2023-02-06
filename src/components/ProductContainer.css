@@ -1,0 +1,12 @@
+.product__section{
+    background-color: var(--container);
+    width: 510px;
+    margin: 30px auto;
+    padding: 25px;
+    min-height: 400px;
+    border-radius: 16px;
+}
+.products__title{
+    margin-bottom: 16px;
+    color: var(--text);
+}
