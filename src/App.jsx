@@ -11,6 +11,7 @@ const App = () => {
             <Product 
                 key={product.key}
                 name={product.name}
+                discount={product.discount}
                 oldPrice={product.price}
                 newPrice={product.price - (product.price * product.discount / 100)}
             />
