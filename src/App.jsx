@@ -7,6 +7,11 @@ const App = () => {
     return (
         <ProductContainer>
             <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            
         </ProductContainer>
     )
 }
