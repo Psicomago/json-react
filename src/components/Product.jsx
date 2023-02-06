@@ -1,4 +1,5 @@
 import "./Product.css"
+import { AddCartBtn } from "./AddCartBtn"
 const Product = () => {
   return (
     <div className="product">
@@ -8,6 +9,7 @@ const Product = () => {
             <p className="product__oldPrice">$200</p>
             <p className="product__Price">$100</p>
         </div>
+        <AddCartBtn/>
 
     </div>
   )
