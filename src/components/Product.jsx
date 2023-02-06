@@ -8,9 +8,9 @@ const Product = () => {
         <div className="product__details">
             <p className="product__oldPrice">$200</p>
             <p className="product__Price">$100</p>
+            <AddCartBtn/>
         </div>
-        <AddCartBtn/>
-
+        
     </div>
   )
 }
