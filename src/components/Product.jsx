@@ -13,7 +13,7 @@ const Product = (props) => {
         <div className="product__details">
             <p className="product__oldPrice">${props.oldPrice}</p>
             <p className="product__Price">${props.newPrice}</p>
-            <AddCartBtn/>
+            <AddCartBtn name={props.name} newPrice={props.newPrice} />
         </div>
         
     </div>

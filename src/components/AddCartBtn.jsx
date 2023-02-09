@@ -1,8 +1,8 @@
 import './AddCartBtn.css';
 
-const AddCartBtn = () => {
+const AddCartBtn = ({name, newPrice}) => {
   return (
-    <button onClick={}>Comprar</button>
+    <button onClick={()=>{alert('Has comprado ' + name + ' un valor de $ ' + newPrice)}}>Comprar</button>
   )
 }
 
